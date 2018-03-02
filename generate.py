@@ -11,12 +11,12 @@ from Crypto.Hash import MD2
 chars = list('abcdefghijklmnpqrstvwxyz!? ')
 
 def hashing(chars):
-  A = 54059
-  B = 76963
-  C = 86969
-  hash = 37
+  A = 54059 # 大きな素数1
+  B = 76963 # 大きな素数2
+  C = 86969 # 大きな素数3
+  hash = 37 # 初期値の素数
   for char in chars:
-    hash = hash*A ^ ord(char)*B
+    hash = hash*A ^ ord(char)*B # XOEを計算する
   return hash%C
 
 pairs = []
