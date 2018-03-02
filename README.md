@@ -16,8 +16,15 @@ StackExchangeにこのような投稿がありました。
 
 ## シンプルなハッシュ処理
 素数を用いたハッシュ処理で文字列をハッシュ化するのにこのようなことを行っています[2]  
-```console
-
+```python
+def hashing(chars):
+  A = 7 # 大きな素数1
+  B = 17 # 大きな素数2
+  C = 23 # 大きな素数3
+  hash = 37 # 初期値の素数
+  for char in chars:
+    hash = hash*A ^ ord(char)*B # XORを計算する
+  return hash%C
 ```
 
 ## ところで仮想通貨のマイニングとは
