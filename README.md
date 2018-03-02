@@ -32,7 +32,21 @@ def hashing(chars):
 TODO:仕組みを書く
 
 ## 学習 & 評価
+以下のコマンドで学習を行えます  
 
+0~1までの値をハッシュ値が取るように調整しているので、val_lossが0.5より小さいので、完全なランダムネスではないようです。  
+
+```console
+$ python3 generate.py # ハッシュ値の計算
+$ python3 make_dense.py # 密行列に変換
+
+$ python3 spectre.py --train # 学習
+...
+Epoch 99/100
+25152/25152 [==============================] - 3s 122us/step - loss: 0.0351 - val_loss: 0.3185
+Epoch 100/100
+25152/25152 [==============================] - 3s 122us/step - loss: 0.0353 - val_loss: 0.3190
+```
 
 ## 参考
 - [2] [Hash function for a string](https://stackoverflow.com/questions/8317508/hash-function-for-a-string)
