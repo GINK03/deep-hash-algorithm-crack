@@ -28,7 +28,8 @@ def hashing(chars):
 ```
 
 ## ところで仮想通貨のマイニングとは
-仮想通貨のマイニングは複雑なハッシュ処理を巨大な素数で行うことで
+仮想通貨のマイニングは複雑なハッシュ処理を行うことで、一定値以下をお金とみなす仕組みがあるようです。  
+TODO:仕組みを書く
 
 ## 参考
 - [2] [Hash function for a string](https://stackoverflow.com/questions/8317508/hash-function-for-a-string)
