@@ -31,5 +31,8 @@ def hashing(chars):
 仮想通貨のマイニングは複雑なハッシュ処理を行うことで、一定値以下をお金とみなす仕組みがあるようです。  
 TODO:仕組みを書く
 
+## 学習 & 評価
+
+
 ## 参考
 - [2] [Hash function for a string](https://stackoverflow.com/questions/8317508/hash-function-for-a-string)
