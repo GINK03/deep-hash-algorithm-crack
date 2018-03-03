@@ -29,7 +29,9 @@ def hashing(chars):
 
 ## ところで仮想通貨のマイニングとは
 仮想通貨のマイニングは複雑なハッシュ処理を行うことで、一定値以下をお金とみなす仕組みがあるようです。  
-TODO:仕組みを書く
+
+Gunosyさまのブログ[1]が詳しく参考になります
+> ビットコインでは、 SHA256(トランザクション全体とか、前のブロックハッシュとか、nonce値) で計算されるハッシュ値が、運良くある値以下になった場合のみ検証成功となります。nonce値(なんでもいい)をドンドン変えて、その条件を満たすまで死ぬほど計算するのです。その検証の難しさを difficulty と呼び、期待される必要計算回数と比例します。
 
 ## 学習 & 評価
 以下のコマンドで学習を行えます  
@@ -49,4 +51,5 @@ Epoch 100/100
 ```
 
 ## 参考
+- [1] [仮想通貨マイニングに関するまとめ](http://tech.gunosy.io/entry/crypto-mining-summary)
 - [2] [Hash function for a string](https://stackoverflow.com/questions/8317508/hash-function-for-a-string)
