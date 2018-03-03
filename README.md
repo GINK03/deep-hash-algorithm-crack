@@ -1,4 +1,4 @@
-# Deep Hash Algorithm Crack
+# DeepでHash関数を推定
 
 ディープラーニングでハッシュ値ををある程度推定できないでしょうか。
 
@@ -42,7 +42,7 @@ hashの計算自体はとても軽いので、そもそも、機械学習で判�
 
 このようなネットワークを構築しました。　　
 <div align="center">
-  <img width="450px" src="https://user-images.githubusercontent.com/4949982/36933463-57412d1a-1f1c-11e8-9d84-238bd7f756d0.png">
+  <img width="450px" src="https://user-images.githubusercontent.com/4949982/36933493-f09ad916-1f1c-11e8-8f22-7bb4f6a8f2f5.png">
 </div>
 
 ## 学習 & 評価
