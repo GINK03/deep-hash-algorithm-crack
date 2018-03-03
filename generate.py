@@ -6,7 +6,7 @@ from itertools import product
 
 import pickle,gzip
 
-from Crypto.Hash import MD2
+#from Crypto.Hash import MD2
 
 chars = list('abcdefghijklmnpqrstvwxyz!? ')
 
