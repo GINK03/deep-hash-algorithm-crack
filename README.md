@@ -49,8 +49,17 @@ $ python3 spectre.py --train # 学習
 ...
 ```
 **評価**  
+テストデータで評価すると、このように近しいhash値を得ることができました  
 ```console
-$ python3 spectre.py --predict # 予想
+$ python3 spectre.py --predict | less # 予想
+input=i a m l, real=0.8755711807954124, predict=0.8816601037979126
+input=n ! w f, real=0.22271613308754315, predict=0.22165605425834656
+input=t e v n, real=0.9822465533733343, predict=0.971804141998291
+input=l v t k, real=0.5375446331578566, predict=0.5378258228302002
+input=i k e k, real=0.3398879642441816, predict=0.3512294292449951
+input=q ? j m, real=0.8622401894856249, predict=0.8548359870910645
+input=m v h p, real=0.5774709391115539, predict=0.5751619338989258
+...
 ```
 
 ## 参考
