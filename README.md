@@ -62,6 +62,13 @@ input=m v h p, real=0.5774709391115539, predict=0.5751619338989258
 ...
 ```
 
+## 本当にDeepLearningでhashを推測したほうが得なのか？
+DeepLearningの計算コスト < Hashの全探索が成り立っているうちは、正直、計算しても仕方がないという感じでして、非常に計算が困難なhash関数を使った暗号化通貨で計算リソースが必要でマイニングが難しいとき、DeepLearningである程度、推測しつつ、候補群の中から、Hash値を計算するという流れが良いかと存じます  
+
+(一部の仮想通貨はCPUしか対応しているバイナリを配っていなかったりして、GPUでフィルタリングして最初から候補軍を絞るとかもできるかもしれません)  
+
+FPGAやASICで高速にSHA256が計算できるようにできるようになってしまっているので、ハードフォークを積極的に行うと宣言している通貨もあるようで、作り込みを前提としたASICはすぐ新しいアルゴリズムに対応するのが難しいですが、hash値をサンプリングできる場合、傾向を学習してすぐさま予想モデルを構築することができます。  
+
 ## 参考
 - [1] [仮想通貨マイニングに関するまとめ](http://tech.gunosy.io/entry/crypto-mining-summary)
 - [2] [Hash function for a string](https://stackoverflow.com/questions/8317508/hash-function-for-a-string)
