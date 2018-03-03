@@ -45,6 +45,9 @@ hashの計算自体はとても軽いので、そもそも、機械学習で判�
   <img width="450px" src="https://user-images.githubusercontent.com/4949982/36933493-f09ad916-1f1c-11e8-8f22-7bb4f6a8f2f5.png">
 </div>
 
+## コード
+https://github.com/GINK03/deep-hash-algorithm-crack
+
 ## 学習 & 評価
 以下のコマンドで学習を行えます  
 
